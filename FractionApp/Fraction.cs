@@ -35,7 +35,7 @@ namespace FractionApp
             int newNumerator = (this.Numerator * b.Denominator) + (b.Numerator * this.Denominator);
             return new Fraction(newNumerator, newDenominator);
         }
-        public object Subtract(object other)
+        public object Minus(object other)
         {
             Fraction b= other as Fraction;
             if (b == null)

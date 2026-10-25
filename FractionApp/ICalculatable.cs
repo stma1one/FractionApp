@@ -7,6 +7,6 @@ namespace FractionApp
     public  interface ICalculatable
     {
         object Add( object other);
-        object Subtract(object other);
+        object Minus(object other);
     }
 }
